@@ -27,7 +27,7 @@ SECRET_KEY = "QdP5Hyc26Dbu2EMKPdhSq69ZmWqK6TqDVbFAJj8X",
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1",os.environ.get('ALLOWED_HOSTS')]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1",".doprax.com"]
 
 
 
